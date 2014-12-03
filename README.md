@@ -1,5 +1,7 @@
-# Crossbar
+# Docker-[ ]-Crossbar
 Run a [Crossbar router](http://crossbar.io) using Docker.
+
+###### `vinelab/crossbar`
 
 ## Usage
 The default configuration is a simple websocket server running on port `8000` with a realm `vinelab`
