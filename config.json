@@ -1,0 +1,36 @@
+{
+   "controller": {},
+   "workers": [
+      {
+         "type": "router",
+         "realms": [
+            {
+               "name": "vinelab",
+               "roles": [
+                  {
+                     "name": "anonymous",
+                     "permissions": [
+                        {
+                           "uri": "*",
+                           "publish": true,
+                           "subscribe": true,
+                           "call": true,
+                           "register": true
+                        }
+                     ]
+                  }
+               ]
+            }
+         ],
+         "transports": [
+            {
+               "type": "websocket",
+               "endpoint": {
+                  "type": "tcp",
+                  "port": 8000
+               }
+            }
+          ]
+      }
+    ]
+}
