@@ -1,10 +1,8 @@
-FROM fedora:21
+FROM python:2.7.9
 
-MAINTAINER Abed Halawi <abed.halawi@vinelab.com>
+MAINTAINER Marc Easen <marc@easen.co.uk>
 
-RUN yum install libffi-devel python-pip python-devel gcc openssl-devel -y
-# RUN yum update -y
-RUN yum clean all
+RUN apt-get update -y && apt-get install -y python-pip
 
 RUN pip install --upgrade twisted
 RUN pip install ez_setup six pyopenssl pycrypto wsaccel ujson
