@@ -5,7 +5,7 @@
          "type": "router",
          "realms": [
             {
-               "name": "vinelab",
+               "name": "realm",
                "roles": [
                   {
                      "name": "anonymous",
