@@ -1,4 +1,4 @@
-Forked from [vinelab/crossbar](https://github.com/Vinelab/docker-crossbar) and ported to use the standard Python2.7 docker image
+Forked from [Easen/docker-crossbar](https://github.com/Easen/docker-crossbar) to upgrade Crossbar.io version.
 
 # Docker-[ ]-Crossbar
 Run a [Crossbar router](http://crossbar.io) using Docker.
